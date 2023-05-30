@@ -119,6 +119,15 @@
             }
         }
     }
+
+    // Remove divider between account and password
+    .divider-3nqZNm{
+        display: none;
+        ~ .marginTop40-Q4o1tS{
+            margin-top: 16px;
+        }
+    }
+
     // Password and auth
     .userSettingsSecurity-2kODPN{
         .sectionTitle-LdcnyP h2{
