@@ -19,8 +19,7 @@
 
     .button-12Fmur{
         margin-left: 4px;
-        background-color: $ControlFillColorDefault;
-        border: 1px solid $ControlStrokeColorDefault;
+        border: 1px solid transparent;
         border-radius: 4px;
         color: $TextFillColorPrimary;
         &:hover{
@@ -44,7 +43,6 @@
 
         // Make muted buttons red
         &[aria-checked=true]{
-            border-color: $SystemFillColorCritical;
             color: $SystemFillColorCritical;
         }
     }
