@@ -97,7 +97,7 @@
         min-width: calc(100% + 3px);
         margin-top: -38px;
         margin-left: -1px;
-        box-shadow: 0 4px 6px 0 rgba(#000, 10%);
+        @include Elevation32;
         .option-Uc12mm{
             min-height: 32px;
             margin: 4px;
