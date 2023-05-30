@@ -39,6 +39,17 @@
                 background-color: $ControlFillColorTertiary !important;
             }
 
+            &.buttonActive-Uc1jHx {
+                background-color: var(--green-360) !important;
+
+                &:hover{
+                    background-color: var(--green-345) !important;
+                }
+                &:active{
+                    background-color: var(--green-400) !important;
+                }
+            }
+
             .contents-3NembX{
                 display: flex;
                 justify-content: center;
