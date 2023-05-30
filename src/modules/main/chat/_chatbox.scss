@@ -65,7 +65,6 @@
         &:hover,
         &[aria-expanded=true]{
             background-color: $ControlFillColorSecondary;
-            border-color: $ControlStrokeColorDefault;
             &::before{
                 color: $TextFillColorPrimary;
             }
@@ -103,7 +102,6 @@
             &.active-z80xEj,
             &.emojiButtonHovered-s44uQ8{
                 background-color: $ControlFillColorDisabled;
-                border-color: $ControlStrokeColorDefault;
                 &::before{
                     color: $TextFillColorPrimary;
                 }
