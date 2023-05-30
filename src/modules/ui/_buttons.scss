@@ -45,6 +45,8 @@
             }
             &:active{
                 background-color: $ControlFillColorTertiary;
+                border-style: solid;
+                border-color: $ControlStrokeColorDefault;
             }
         }
 

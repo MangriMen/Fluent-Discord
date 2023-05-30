@@ -75,10 +75,17 @@
     .select-Zz0IcO{
         padding: 3px 8px 3px 12px;
         background-color: $ControlFillColorDefault;
-        border: 1px solid $ControlStrokeColorDefault;
+        border-width: 1px;
+        border-style: outset;
+        border-color: $ControlElevationBorder;
         @include TypeBody;
         &:hover{
-            border-color: $ControlStrokeColorSecondary;
+            background-color: $ControlFillColorSecondary;
+        }
+        &:active{
+            background-color: $ControlFillColorTertiary;
+            border-style: solid;
+            border-color: $ControlStrokeColorDefault;
         }
     }
 
