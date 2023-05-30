@@ -34,11 +34,6 @@
         padding-left: 0;
     }
 
-    // User's input text
-    .textArea-2CLwUE{
-        height: 45px;
-        min-height: 45px;
-    }
     .slateTextArea-27tjG0{
         right: 8px;
         left: 8px;
@@ -54,13 +49,14 @@
         width: 32px;
         height: 32px;
         margin: 6px 0 0 6px;
-        border: 1px solid transparent;
-        border-radius: 2px;
+        border-radius: 4px;
+        padding: 0;
         &::before{
-            content: "\E898"; // Upload
+            content: "\ECC8"; // AddTo
             color: $TextFillColorSecondary;
             @include FontIconFluent;
-            font-size: 16px;
+            font-size: 18px;
+            margin: 1px 0 0 1px;
         }
         &:hover,
         &[aria-expanded=true]{
@@ -92,7 +88,6 @@
         .button-ejjZWC{
             height: 32px;
             width: 32px;
-            border: 1px solid transparent;
             &::before{
                 color: $TextFillColorSecondary;
                 @include FontIconFluent;
@@ -101,7 +96,7 @@
             &:hover,
             &.active-z80xEj,
             &.emojiButtonHovered-s44uQ8{
-                background-color: $ControlFillColorDisabled;
+                background-color: $ControlFillColorDefault;
                 &::before{
                     color: $TextFillColorPrimary;
                 }
