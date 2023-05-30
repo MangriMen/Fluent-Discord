@@ -29,7 +29,9 @@
         button{
             min-width: unset;
             background-color: $ControlFillColorDefault !important;
-            border: 1px solid $ControlStrokeColorDefault !important;
+            border-width: 1px !important;
+            border-style: outset !important;
+            border-color: $ControlElevationBorder !important;
             border-radius: 4px;
             color: $TextFillColorPrimary !important;
             &:hover{
@@ -37,6 +39,8 @@
             }
             &:active{
                 background-color: $ControlFillColorTertiary !important;
+                border-style: solid !important;
+                border-color: $ControlStrokeColorDefault !important;
             }
 
             &.buttonActive-Uc1jHx {
