@@ -1,7 +1,9 @@
 .theme-dark .container-1ILvLB{
-    background-color: $SolidBackgroundFillColorBase;
+    background: $MicaBackgroundFillColorBase;
+    backdrop-filter: blur(16px);
     border: 1px solid $SurfaceStrokeColorDefault;
     border-radius: 8px;
+    min-width: 298px;
 
     .header-2C89wJ{
         padding: 24px 24px 0 24px;
@@ -24,6 +26,53 @@
             color: $AccentTextFillColorPrimary;
             &:active{
                 color: $AccentTextFillColorTertiary;
+            }
+        }
+
+        .graphContainer-3Txdak {
+            background-color: transparent;
+        }
+
+        .popoutBottom-15-vLu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            // Icon replacements
+            .debugButton-OTfjlB {
+                .launchIcon-3syQt1 {
+                    display: none;
+                }
+
+                &::before {
+                    @include FontIconFluent;
+                    content: "\E8A7"; // OpenInNewWindow
+                }
+            }
+
+            // Icon replacements
+            .copyStatsButton-3YHmr5 {
+                .copyIcon-1iy9-Q {
+                    display: none;
+                }
+
+
+                &::before {
+                    display: inline-block;
+                    @include FontIconFluent;
+                    content: "\E8C8"; // Copy
+                }
+            }
+
+            .secured-2wavXv,
+            .debugButton-OTfjlB,
+            .copyStatsButton-3YHmr5 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex: 1;
+
+                text-align: center;
             }
         }
     }
