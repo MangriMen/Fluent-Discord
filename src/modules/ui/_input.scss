@@ -93,6 +93,11 @@
     .popout-15UxD6{
         background: $SolidbackgroundFillColorQuarternary;
         border: 1px solid $SurfaceStrokeColorFlyout;
+        border-radius: 8px;
+        min-width: calc(100% + 3px);
+        margin-top: -38px;
+        margin-left: -1px;
+        box-shadow: 0 4px 6px 0 rgba(#000, 10%);
         .option-Uc12mm{
             min-height: 32px;
             margin: 4px;
@@ -100,12 +105,21 @@
             @include TypeBody;
             color: $TextFillColorPrimary;
             position: relative;
+            border-radius: 6px;
             &:hover{
                 background-color: $SubtleFillColorSecondary;
-                border-radius: 4px;
+            }
+            &:focus {
+                background-color: $SubtleFillColorSecondary;
+                outline: 2px solid white;
+                outline-offset: 1px;
+            }
+            &:active {
+                background-color: $SubtleFillColorTertiary;
             }
             &[aria-selected=true]{
-                background-color: transparent;
+                background-color: $SubtleFillColorSecondary;
+                border-radius: 6px;
 
                 &::before{
                     content: "";
@@ -119,8 +133,7 @@
                     border-radius: 2px;
                 }
                 &:hover{
-                    background-color: $SubtleFillColorSecondary;
-                    border-radius: 4px;
+                    background-color: $SubtleFillColorTertiary;
                 }
                 .selectedIcon-122rMx{
                     display: none;
