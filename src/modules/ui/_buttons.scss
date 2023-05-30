@@ -67,6 +67,8 @@
         // Disabled
         // eg. Add game popout
         &:disabled{
+            border-style: solid;
+            border-color: $ControlStrokeColorDefault;
             background-color: $ControlFillColorDisabled;
             color: $TextFillColorDisabled;
             pointer-events: none;
