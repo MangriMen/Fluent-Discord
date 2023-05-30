@@ -47,7 +47,7 @@
                 bottom: 0;
                 width: 16px;
                 height: 3px;
-                background-color: $AccentLight1;
+                background-color: $AccentBase;
                 border-radius: 2px;
             }
             &:hover{
@@ -94,7 +94,7 @@
             background-color: $ControlFillColorInputActiveBrush;
             color: $TextFillColorPrimary;
             border-color: $ControlStrokeColorDefault;
-            border-bottom-color: $AccentLight1;
+            border-bottom-color: $AccentBase;
         }
         &::placeholder{
             @include TypeBody;

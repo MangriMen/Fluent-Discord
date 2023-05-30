@@ -35,7 +35,7 @@
     // New messages bar
     .newMessagesBar-1hF-9G{
         top: 8px;
-        background-color: $AccentLight1;
+        background-color: $AccentBase;
         .barButtonBase-Sk2mdB{
             color: $TextOnAccentFillColorPrimary;
         }
@@ -230,7 +230,7 @@
             &:focus-within{
                 background-color: $ControlFillColorInputActiveBrush;
                 border-color: $ControlStrokeColorDefault;
-                border-bottom-color: $AccentLight1;
+                border-bottom-color: $AccentBase;
             }
         }
         .emojiButton-3FRTuj{
