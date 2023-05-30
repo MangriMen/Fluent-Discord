@@ -64,7 +64,7 @@
             background-color: transparent;
             .field-21XZwa{
                 min-height: 64px;
-                padding: 0 16px;
+                padding: 16px;
                 margin: 0 0 4px 0;
                 background-color: $CardBackgroundFillColorDefault;
                 border: 1px solid $CardStrokeColorDefault;
@@ -72,6 +72,33 @@
 
                 .constrainedRow-3y91Xf{
                     align-items: center;
+
+                    >:first-child {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: flex-start;
+
+                        @media (max-width: 1050px) {
+                            flex-direction: column;
+                            align-items: flex-start;
+                            justify-content: center;
+                        }
+
+                        .fieldTitle-2g5r_V {
+                            @include TypeBody;
+                            width: 156px;
+                            margin: unset;
+
+                            &::after {
+                                content: ":";
+                            }
+                        }
+
+                        .text-md-normal-2rFCH3 {
+                            @include TypeBody;
+                        }
+                    }
                 }
 
                 .usernameRow-1x50RR,
@@ -84,6 +111,8 @@
                 // Override the reveal button
                 .button-ejjZWC.lookLink-13iF2K{
                     min-width: unset;
+                    min-height: unset;
+                    height: auto;
                     padding: 0 0 0 4px;
                     background-color: unset;
                     border: unset;
