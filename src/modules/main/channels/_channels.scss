@@ -141,12 +141,17 @@
             &:hover{
                 .content-1gYQeQ{
                     background-color: $SubtleFillColorSecondary;
-                    box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary; // Using box-shadow because borders cause the div to grow
                 }
 
                 // Reveal channel buttons
                 .children-1MGS9G .iconItem-1EjiK0{
                     visibility: visible;
+                }
+            }
+
+            &:active {
+                .content-1gYQeQ{
+                    background-color: $SubtleFillColorTertiary;
                 }
             }
 
@@ -179,6 +184,13 @@
                 .content-1gYQeQ{
                     background-color: $SubtleFillColorSecondary;
                 }
+
+                &:hover {
+                    .content-1gYQeQ{
+                        background-color: $SubtleFillColorTertiary;
+                    }
+                }
+
                 // Channel icon
                 .icon-2W8DHg{
                     color: $TextFillColorPrimary;
@@ -254,7 +266,6 @@
         &:hover{
             .content-1gYQeQ{
                 background-color: $SubtleFillColorSecondary;
-                box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary; // Using box-shadow because borders cause the div to grow
             }
         }
         .name-28HaxV{
