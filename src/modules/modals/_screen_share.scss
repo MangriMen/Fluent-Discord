@@ -17,6 +17,26 @@
                 text-align: left;
             }
 
+            .tabContainer-CradLt {
+                .tabItemSelected-Z0xl-W {
+                    border-bottom: none;
+                    position: relative;
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        margin: auto;
+                        width: 16px;
+                        height: 3px;
+                        background-color: $AccentLight1;
+                        border-radius: 2px;
+                    }
+                }
+            }
+
             div[style*="position: relative;"]{
                 background-color: $CardBackgroundFillColorDefault;
             }

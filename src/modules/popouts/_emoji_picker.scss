@@ -14,8 +14,16 @@
 }
 
 .theme-dark{
+    .contentWrapper-3vHNP2 {
+        grid-template-rows: 32px auto;
+    }
+
     // Navigation
     .nav-1zWVQw{
+        .navList-YSb9UB {
+            height: 32px;
+        }
+
         .navButton-1XuvI-{
             padding-left: 0;
             padding-right: 0;
@@ -36,9 +44,9 @@
             &::before{
                 content: "";
                 position: absolute;
-                bottom: 0px;
+                bottom: 0;
                 width: 16px;
-                height: 2px;
+                height: 3px;
                 background-color: $AccentLight1;
                 border-radius: 2px;
             }
