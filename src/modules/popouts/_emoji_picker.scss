@@ -23,22 +23,23 @@
             margin-right: 16px;
             color: $TextFillColorPrimary;
             border-radius: 0;
-            &:hover{
+            &:hover {
                 background-color: transparent;
+            }
+            &:active{
                 color: $TextFillColorSecondary;
             }
 
         }
         .navButtonActive-1EqC5l{
             background-color: transparent;
-            color: $AccentTextFillColorPrimary;
             &::before{
                 content: "";
                 position: absolute;
                 bottom: 0px;
-                width: 100%;
+                width: 16px;
                 height: 2px;
-                background-color: $AccentLight3;
+                background-color: $AccentLight1;
                 border-radius: 2px;
             }
             &:hover{
@@ -85,7 +86,7 @@
             background-color: $ControlFillColorInputActiveBrush;
             color: $TextFillColorPrimary;
             border-color: $ControlStrokeColorDefault;
-            border-bottom-color: $AccentBase;
+            border-bottom-color: $AccentLight1;
         }
         &::placeholder{
             @include TypeBody;

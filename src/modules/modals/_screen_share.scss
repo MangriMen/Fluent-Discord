@@ -64,7 +64,6 @@
                     }
                     &.selectorButtonSelected-3cQUnj{
                         background-color: $AccentFillColorDefault;
-                        color: $TextOnAccentFillColorPrimary;
                         &:hover{
                             background-color: $AccentFillColorSecondary;
                         }
@@ -74,6 +73,13 @@
                         &:hover{
                             background-color: transparent;
                         }
+                    }
+
+                    .selectorText-LxivBc {
+                        font-weight: 600;
+                    }
+                    .selectorTextSelected-2zup8I {
+                        color: $TextOnAccentFillColorPrimary;
                     }
                 }
             }

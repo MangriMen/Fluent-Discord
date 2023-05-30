@@ -1,5 +1,5 @@
 .theme-dark .title-31SJ6t, // Normal toolbar
-.theme-dark .container-ZMc96U{ // Browse channels toolbar 
+.theme-dark .container-ZMc96U{ // Browse channels toolbar
     padding: 0 0 0 20px;
     &.themed-Hp1KC_{
         background-color: transparent;
@@ -66,6 +66,9 @@
             }
             .count-vTKEhF{
                 color: $TextOnAccentFillColorPrimary !important; // Override inline
+            }
+            .icon-2xnN2Y {
+                color: $TextOnAccentFillColorPrimary;
             }
         }
         // Toggled (mute channel)

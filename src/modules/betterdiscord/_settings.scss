@@ -227,7 +227,7 @@
             background-color: $ControlFillColorInputActiveBrush;
             color: $TextFillColorPrimary;
             border-color: $ControlStrokeColorDefault;
-            border-bottom-color: $AccentBase;
+            border-bottom-color: $AccentLight1;
         }
     }
     svg{
@@ -336,6 +336,6 @@
         background-color: $ControlFillColorInputActiveBrush;
         color: $TextFillColorPrimary;
         border-color: $ControlStrokeColorDefault;
-        border-bottom-color: $AccentBase;
+        border-bottom-color: $AccentLight1;
     }
 }
