@@ -9,8 +9,7 @@
     height: 32px;
     background-color: $ControlFillColorDefault;
     border: 1px solid;
-    border-bottom-width: 2px;
-    border-color: $ControlStrokeColorDefault;
+    border-color: $ControlStokeColorInputDefault;
     border-radius: 4px;
     @include TypeBody;
     color: $TextFillColorSecondary;
@@ -22,13 +21,13 @@
     }
 
     &:hover{
-        border-color: $ControlStrokeColorSecondary;
+        background-color: $ControlFillColorSecondary;
     }
     &:focus{
         background-color: $ControlFillColorInputActiveBrush;
         color: $TextFillColorPrimary;
-        border-color: $ControlStrokeColorDefault;
-        border-bottom-color: $AccentBase;
+        border-bottom-width: 2px;
+        border-bottom-color: $AccentLight1;
     }
     &::placeholder{
         color: $TextFillColorSecondary;
