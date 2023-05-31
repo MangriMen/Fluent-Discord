@@ -81,11 +81,12 @@
                 border-radius: 50%;
             }
             .acronym-2zrAHN{
-                width: 24px;
-                height: 24px;
+                width: 36px;
+                height: 36px;
                 background-color: transparent;
                 color: $TextFillColorPrimary;
                 @include TypeBodyStrong;
+                overflow: hidden;
             }
         }
 
