@@ -241,7 +241,14 @@
     // Voice
     .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42{
         background-color: $SubtleFillColorSecondary;
-        box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary; // Using box-shadow because borders cause the div to grow
+    }
+
+    .listDefault-2F-w65 .clickable-1ctZ-H:active .content-1Tgc42 {
+        background-color: $SubtleFillColorTertiary;
+    }
+
+    .listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42 {
+        background-color: $SubtleFillColorTertiary;
     }
 
     // Show all voice channels button
