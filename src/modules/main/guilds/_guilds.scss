@@ -21,7 +21,6 @@
         margin: 0;
         width: 48px;
 
-
         // Hover state
         &:hover .wrapper-3kah-n::before,
         .wrapper-3kah-n.selected-1Drb7Z::before{
@@ -52,11 +51,11 @@
                 background-color: $TextFillColorSecondary;
                 border-radius: 999px;
                 transform: none !important;
-                display: none;
 
                 // Normal state
                 @for $i from 9 through 20{
                     &[style*="height: #{$i}"]{
+                        display: none;
                         background-color: $TextFillColorPrimary;
                     }
                 }
