@@ -24,14 +24,14 @@
 
     // Card
     .wrapper-2RrXDg{
-        background-color: $LayerFillColorDefault;
+        background-color: $CardBackgroundFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         &:hover{
-            background-color: $LayerFillColorAlt;
+            background-color: $CardBackgroundFillColorTertiary;
         }
     }
     .inset-SbsSFp{
-        background-color: $LayerFillColorDefault;
+        background-color: $CardBackgroundFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 4px;
         .section-3G9aLW{
