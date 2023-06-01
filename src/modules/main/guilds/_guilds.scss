@@ -55,7 +55,6 @@
                 // Normal state
                 @for $i from 9 through 20{
                     &[style*="height: #{$i}"]{
-                        display: none;
                         background-color: $TextFillColorPrimary;
                     }
                 }
@@ -63,7 +62,6 @@
                 // Selected
                 @for $i from 21 through 40{
                     &[style*="height: #{$i}"]{
-                        display: unset;
                         background-color: $AccentFillColorDefault;
                     }
                 }
