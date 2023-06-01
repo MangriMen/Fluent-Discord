@@ -36,12 +36,20 @@
         &:hover{
             color: $TextFillColorPrimary;
             background-color: $SubtleFillColorSecondary;
-            border-color: $SubtleFillColorSecondary;
+
+            &.selected-1sf9UK {
+                background-color: $SubtleFillColorTertiary;
+            }
         }
-        &:hover{
+        &:active{
             color: $TextFillColorSecondary;
             background-color: $SubtleFillColorTertiary;
+
+            &.selected-1sf9UK {
+                background-color: $SubtleFillColorSecondary;
+            }
         }
+
         // Pill
         &::before{
             content: "";
