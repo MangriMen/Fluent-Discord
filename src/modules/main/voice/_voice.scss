@@ -170,6 +170,7 @@
 
             // Popout/fullscreen
             .rightTrayIcon-1m3hnG{
+                justify-content: center;
                 width: 32px;
                 height: 32px;
                 margin-left: 8px;
@@ -184,6 +185,11 @@
                 }
                 svg{
                     width: 16px;
+                }
+
+                @media (max-width: 1000px) {
+                    width: 24px;
+                    height: 24px;
                 }
             }
         }
