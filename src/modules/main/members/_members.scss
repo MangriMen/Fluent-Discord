@@ -42,7 +42,9 @@
         border: 1px solid transparent;
         &:hover{
             background-color: $SubtleFillColorSecondary;
-            border-color: $SubtleFillColorSecondary;
+        }
+        &:active {
+            background-color: $SubtleFillColorSecondary;
         }
         &::before{
             content: "";
