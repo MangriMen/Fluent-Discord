@@ -13,6 +13,26 @@
             content: unset;
         }
     }
+
+    // Setup channel button
+    .buttonContainer-2zLp7E {
+        .button-ejjZWC {
+            background-color: $AccentFillColorSecondary;
+            color: $TextOnAccentFillColorPrimary;
+            .buttonIcon-1TxM6f {
+                display: flex;
+                align-items: center;
+            }
+
+            &:hover {
+                background-color: $AccentFillColorDefault;
+            }
+            &:active {
+                color: $TextOnAccentFillColorSecondary;
+            }
+        }
+    }
+
     .chatContent-3KubbW{
         background-color: transparent;
     }
