@@ -197,6 +197,18 @@
         // Only apply border colour to users
         &.tile-2Dr6M1:hover{
             border-color: $ControlStrokeColorDefault;
+            .button-ejjZWC {
+                background-color: $AccentFillColorDefault;
+            }
+        }
+        &.tile-2Dr6M1:active {
+            .button-ejjZWC {
+                background-color: $AccentFillColorDefault;
+
+                .text-md-semibold-2VMhBr {
+                    color: $TextOnAccentFillColorSecondary;
+                }
+            }
         }
         .overlayTitle-2efoIF{
             background-color: $ControlOnImageFillColorDefault;

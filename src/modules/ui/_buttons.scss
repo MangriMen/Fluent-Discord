@@ -13,6 +13,21 @@
         height: 32px;
     }
 
+    &.sizeMin-3Yqxk5 {
+        padding: 8px 12px;
+        border-width: 1px;
+        border-style: outset;
+        border-color: $ControlElevationBorder;
+        background: $AccentFillColorSecondary;
+
+        .text-md-semibold-2VMhBr {
+            color: $TextOnAccentFillColorPrimary;
+            font-size: 14px;
+            line-height: 1;
+            font-weight: normal;
+        }
+    }
+
     // Filled buttons
     &.lookFilled-1H2Jvj{
         // Brand buttons
